@@ -18,6 +18,7 @@ header{
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    
 }
 
     nav{
@@ -49,6 +50,7 @@ nav .navbar-list a {
 }
 .banner{
     display: flex;
+    margin-bottom: 50px;
 }
 .banner-left{
     flex:1;
@@ -115,6 +117,7 @@ nav .navbar-list a {
 .container{
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 70px;
 }
 
 .collections-section{
@@ -186,4 +189,52 @@ nav .navbar-list a {
 .fa-star.empty{
     color:#aeaeae;
     margin-right: 10px;
+}
+.arrow-right{
+    float: right;
+    margin-top: 30px;
+    margin-right: 25px;
+    color: #E02C6D;
+}
+
+/*-----------Footer-section --------------*/
+footer{
+    background: #0A0826;
+    color: #fff;
+    width: 100%;
+    Height :239px;
+}
+.footer-content{
+    text-align: center;
+    padding-top: 70px;
+}
+.footer-content h3{
+    font-size: 24;
+    font-weight: 700;
+    line-height: 36px;
+}
+.footer-content p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+
 }
