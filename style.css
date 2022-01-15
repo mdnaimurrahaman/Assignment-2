@@ -105,11 +105,13 @@ nav .navbar-list > a {
   padding: 10px 24px;
   border-radius: 25px;
   display: inline-block;
-  transition: background-color 0.5s;
+  transition:0.5s;
 }
 
 .btn-hero:hover {
-  background-color: #01ccbb;
+  background-color: #FF59591A;
+  color: #ff005c;
+  transition: 0.5s;
 }
 
 .btn-hero i {
@@ -210,7 +212,7 @@ nav .navbar-list > a {
 
 form{
   margin-top: auto;
-  width: 50%;
+  width: 1000px;
   background: #FF59591A;
   /* background: #4F9DA61A; */
 
@@ -376,6 +378,13 @@ footer p {
     align-items: flex-start;
     flex-direction: column;
   }
+  @media only screen and (max-width: 688px) {
+    .container-form {
+      width: 100%;
+      background-color: aqua;
+    }
+  }
+  
   footer {
     padding-top: 50px;
   }
