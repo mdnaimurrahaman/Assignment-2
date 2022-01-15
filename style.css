@@ -23,8 +23,10 @@ body {
      Header-styles 
 ----------------------*/
 .text-style {
-  color: #fff;
+  color: rgb(31, 31, 31);
   margin-left: 10px;
+  font-size: 24px;
+  font-weight: 700;
 }
 .text-style:hover {
   color: #ff005c;
@@ -33,7 +35,7 @@ body {
 header {
   display: flex;
   justify-content: center;
-  background: #0b0a11;
+  background: #fdfdfd;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -46,15 +48,16 @@ nav {
 }
 .mobile-menu {
   display: none !important;
-  color: #fff;
+  color: rgb(36, 36, 36);
 }
 nav .navbar-list a {
-  color: #ffffff;
+  color: #2b2b2b;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   text-decoration: none;
+  transition: 0.3s;
 }
 nav .navbar-list a:hover {
   color: #ff005c;
@@ -69,7 +72,7 @@ nav .navbar-list > a {
 
 .top-section {
   display: flex;
-  background-color: #aac6c7;
+  background-color: #ffffff;
   justify-content: center;
   padding-bottom: 86px;
 }
@@ -100,7 +103,7 @@ nav .navbar-list > a {
   font-weight: 500;
   text-decoration: none;
   padding: 10px 24px;
-  border-radius: 5px;
+  border-radius: 25px;
   display: inline-block;
   transition: background-color 0.5s;
 }
@@ -116,6 +119,7 @@ nav .navbar-list > a {
 .banner-image img {
   width: 440px;
   height: 414;
+  transform: 0.2s;
 }
 .banner-image img:hover {
   transform: rotate(360deg);
@@ -156,12 +160,6 @@ nav .navbar-list > a {
   box-shadow: 0px 0px 40px rgba(27, 25, 25, 0.15);
   border-radius: 5px;
 }
-.product:hover {
-  padding: 15px;
-  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
-    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
-  border-radius: 5px;
-}
 
 .product h3 {
   font-style: normal;
@@ -199,6 +197,7 @@ nav .navbar-list > a {
   color: orangered;
   margin-right: 20px;
 }
+
 /*
  -------------------------
   about-us
