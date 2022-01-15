@@ -2,6 +2,7 @@
     --------------------------------> */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Yeseva+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;500;600;700;800&family=Yeseva+One&display=swap');
 *{
     margin: 0%;
     padding: 0%;
@@ -100,4 +101,89 @@ nav .navbar-list a {
     transform: scale(1.1);
     transition:  all 0.3s ease 0.3s ;
 
+}
+
+/* <!-- ------ Products-section ------ --
+--------------------------------> */
+.section-title{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 70px;
+    color: #3A3A3A;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.collections-section{
+    margin-top: 20px;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+    grid-row-gap: 50px;
+    
+}
+
+.collection{
+    Width :329px;
+    Height :476px;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    padding-left: 25px;
+    padding-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+.collection img{
+    Width:300px;
+    Height :256px;
+}
+
+.collection-title{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #18191F;
+    margin-top: 10px;
+}
+.price{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-top: 10px;
+}
+
+.rating{
+    font-size: 16px;
+    line-height: 22px;
+    ont-weight: 700;
+}
+.review{
+    margin-top: 10px;
+}
+.review p{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #787885;
+    margin-top: 10px;
+}
+
+.fa-star{
+    font-size: 12px;
+
+}
+.fa-star.filled{
+    color: #FB8200;
+}
+.fa-star.empty{
+    color:#aeaeae;
+    margin-right: 10px;
 }
