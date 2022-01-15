@@ -200,12 +200,54 @@ nav .navbar-list > a {
 
 /*
  -------------------------
-  about-us
+  <!-- Contact-section -->
  -------------------------
  */
-#about-me {
+
+ .contact-info{
   text-align: center;
 }
+
+form{
+  margin-top: auto;
+  width: 50%;
+  background: #FF59591A;
+  /* background: #4F9DA61A; */
+
+  padding: 50px 0;
+  display:inline-block;
+  border-radius: 15px;
+}
+
+form h1{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.control{
+  width: 80%;
+  padding: 10px;
+  margin-top: 20px;
+  outline: none;
+  border:none;
+  border-bottom: 1px solid #333;
+  font-size: 18px;
+  background-color:transparent;
+
+}
+
+.send-btn{
+  background-color: #E02C6D;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  border-bottom:0;
+}
+
+.Contact-side{
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
 
 /*-------------
     Footer
